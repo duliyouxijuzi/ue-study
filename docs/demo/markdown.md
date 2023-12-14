@@ -161,7 +161,7 @@ npm i -D vuepress-theme-hope
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html)
 
-#### 图片增强
+### 图片增强
 
 支持为图片设置颜色模式和大小
 
