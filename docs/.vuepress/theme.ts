@@ -26,6 +26,8 @@ export default hopeTheme({
 	
   // navbar
   navbar,
+
+	// 导航栏包含了下列可以使用的内置组件
 	
   // sidebar
   sidebar,
