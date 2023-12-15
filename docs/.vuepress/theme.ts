@@ -38,8 +38,20 @@ export default hopeTheme({
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
-
+  
+  //深色模式
+  //"switch": 在深色模式，浅色模式和自动之间切换 (默认)
+  //"toggle": 在深色模式和浅色模式之间切换
+  //"auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+  //"enable": 强制深色模式
+  //"disable": 禁用深色模式
   darkmode: "switch",
+
+  //打印按钮
+  print: true,
+
+  //全屏按钮
+  fullscreen: true,
   
   plugins: {
     // You should generate and use your own comment service
