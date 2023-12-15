@@ -23,10 +23,22 @@ export default hopeTheme({
   repoDisplay: true,
 
   docsDir: "docs",
-
+	
   // navbar
   navbar,
-
+	//导航栏包含了下列可以使用的内置组件
+	//Brand: 站点品牌
+	//Links: 导航栏链接
+	//Language: 语言切换菜单
+	//Search: 搜索框
+	//Outlook: 外观弹窗
+	//Repo: 项目仓库
+	navbarLayout: {
+      start: ["Brand"],
+      center: ["Links"],
+      end: ["Language", "Repo", "Outlook", "Search"],
+    },
+	
   // sidebar
   sidebar,
 
